@@ -13,7 +13,7 @@ picture: assets/images/profile.jpg
 # and specify source (external or local).
 resume: true
 resume-external: true
-resume-url: assets/docs/resume.pdf
+resume-url: assets/docs/GeetikaBatraCV.pdf
 
 url: https:www.geetikabatra.xyz
 # your url: http://USERNAME.github.io
@@ -105,4 +105,4 @@ compress_html:
 
 exclude: ["travis.sh", "Rakefile", "README.md", "Gemfile", "Gemfile.lock", "FAQ.md"]
 collections:
-  - external_feed
+  - medium_posts

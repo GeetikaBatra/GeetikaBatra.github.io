@@ -11,7 +11,7 @@ Feedjira::Feed.fetch_and_parse("https://medium.com/feed/@geetika791").entries.ea
         title = e[:title]
         content = e[:content]
         guid = e[:url]
-        path = "./_external_feed/" + title + ".md"
+        path = "external_feed/" + title + ".md"
         path = site.in_source_dir(path)
         doc = Jekyll::Document.new(path, { :site => site, :collection => jekyll_coll })
         doc.data['title'] = title;
