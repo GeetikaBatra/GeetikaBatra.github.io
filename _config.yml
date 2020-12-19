@@ -15,7 +15,7 @@ resume: true
 resume-external: true
 resume-url: assets/docs/GeetikaBatraCV.pdf
 
-url: https:www.geetikabatra.xyz
+url: https://geetikabatra.github.io
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
